@@ -1,0 +1,164 @@
+.btn-b {
+  background-color: #000000;
+}
+
+.btn-w {
+  background-color: rgb(0, 0, 0);
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+}
+  header {
+    background-color: #000000;
+    color: rgb(255, 0, 0);
+    padding: 20px;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  header img {
+    margin: 20px;
+    width: 10%;
+  }
+  .cob{
+    border-radius: 15px;
+    transition: 0.4s;
+    padding: 10px;
+    padding: 2px solid transparent;
+    outline: none;
+    background: #ffffff;
+  }
+  .cob:focus{
+    border:  2px solid #ff2600;
+    
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+
+  a .href {
+    color: white;
+  }
+
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li {
+    margin: 0 10px;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+  nav a:hover {
+    color: lightgray;
+  }
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+
+  .box {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+  }       
+  .product {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    width: 200px;
+    height: 300px;
+    box-shadow: 3px 3px 10px #000000;
+    border-radius: 50px;
+    border: 3px solid #950808;
+  }
+  .product{
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .product:hover{
+    transform: translate(-15px);
+    transition: .4s;
+  }
+  .product img {
+    width: 50%;
+    
+  }
+  .product p {
+    margin: 10px;
+    font-size: 18px;
+  }
+  .product h3 {
+    font-size: 15px;
+  }
+  
+  .product button {
+    background-color: #ff6347;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    
+  }
+  .product button:hover {
+    background-color: #550a01;
+  }
+  footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  #contact{
+    color: aliceblue;
+    margin: 20px;
+  }
+  #about{
+    color: aliceblue;
+    margin: 20px;
+  }
+  #categories{
+    color: aliceblue;
+  }
+
+
+
+
+  .view-cart{
+    background-color: #fff;
+    border: 2px solid brown;
+    color: brown;
+}
+.cart-icon{
+    text-align: right;
+}
+
+
+
+
